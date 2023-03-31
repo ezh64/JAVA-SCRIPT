@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whip up Gift Boxex</title>
+    <link rel="stylesheet" href="style.css">
+     <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+      }
+      .grid-item {
+        border: 1px solid #ccc;
+      }
+      .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+<body>
+    <h1 id="heading">WHIP-UP GIFT BOXES</h1>
+    <input type="text" id="textBox" placeholder="Enter the no of gifts to generate">
+    <button type="submit" id="generateButton2" value="Submit"><b>Generate Boxes</b></button>
+    <img id="generateButton">
+      <div class="grid-container">
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+      <div class="grid-item"><img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0"></div>
+    </div>
+</body>
+</html>

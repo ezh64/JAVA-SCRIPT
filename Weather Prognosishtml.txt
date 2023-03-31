@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prognosis</title>
+
+     <style type="text/css">
+        .container{
+            background-image:url("https://mystickermania.com/cdn/stickers/noob-pack/rainbow-and-cute-smiling-clouds-512x512.png?t=09102020");
+            background-size: cover;
+            height: 100vh;
+        }
+        .image{
+            position: relative;
+            top: 10px;
+
+            left: 10px;
+            height: 20%;
+            width: 20%;
+        }
+        #heading{
+            position: absolute;
+            top: 0px;
+            left: 40%;
+        }
+        .a{
+            background-color: black;
+            padding: 100px;
+            border-radius: 25px;
+            margin: 10px 100px;
+            text-align: center;
+        }
+        button{
+            padding: 10px 100px;
+            border-radius: 25px;
+            color: pink;
+            font-weight: bold;
+        }
+        input{
+            padding: 10px 100px;
+            border-radius: 25px;
+            background-color: pink;
+        }
+        .b{
+            color: pink;
+            background-color: black;
+            padding:0px 100px;
+            margin: 20px 300px;
+            border-radius: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/51dkgGFLNFL._AC_SL1500_.jpg" class="image">
+        <h1 id="heading">WEATHER REPORT</h1>
+        <div class="a" id="grid1">
+           <input type="text" name="" id="textBox">
+                <button id="submitButton">SUBMIT</button>
+        </div>
+        <div id="grid2"class="b d-flex flex-row justify-content-center">
+           <img id="i" src="https://mystickermania.com/cdn/stickers/noob-pack/rainbow-and-cute-smiling-clouds-512x512.png?t=09102020" width="10%" height="10%">
+                <h1 id="p">TAMIL NADU</h1>
+                <h1 id="h">34.6°С</h1>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <style>
+        body {
+            background-image: url("http://wallpapercave.com/wp/92r6xWU.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <img id="timeline">
+    <h1 id="timeline">Timeline</h1>
+    <h3 id="aboutMe">EZHIL ARASI</h3>
+    <h2 id="myTasks">My Tasks</h2>
+    <img id="filter">
+    <h3 id="dateTime">20 JAN 2005</h3>
+</body>
+</html>
